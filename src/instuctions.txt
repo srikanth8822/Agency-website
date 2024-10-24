@@ -1,0 +1,34 @@
+*** lets set up the colors for projects for figma and files
+ **let use the colors
+
+ step 2:
+ ** set up the font
+ <Carousel className='w-full mx-auto'>
+        <div className="my-28 md:my-8 py-12 flex flex-col md:flex-row-reverse items-center jusity-between gap-12">
+         <div>
+          <img src={banner1} alt=''/>
+         </div>
+         {/* {hero text } */}
+         <div className='md:w-1/2'>
+        
+          <h1 className="text-5xl font-semibold mb-4 text-neutralDGrey md:w-3/4 leading-snug">Lessons and insights
+          <div className="text-brandPrimary leading-snug">from 8 years</div></h1>
+          <p className='text-neutralGREY text-base mb-8'>Where to grow your business as a photograpgher: site or social media?</p>
+           <button className='px-7 py-2 bg-brandPrimary text-white rounded hover:bg-neutralDGrey transition-all duration-300 hover:-translate-y-4'>Register</button>
+         </div>
+        </div>
+        <div className="my-28 md:my-8 py-12 flex flex-col md:flex-row-reverse items-center jusity-between gap-12">
+         <div>
+          <img src={banner1} alt=''/>
+         </div>
+         {/* {hero text } */}
+         <div className='md:w-1/2'>
+        
+          <h1 className="text-5xl font-semibold mb-4 text-neutralDGrey md:w-3/4 leading-snug">Lessons and insights
+          <div className="text-brandPrimary leading-snug">from 8 years</div></h1>
+          <p className='text-neutralGREY text-base mb-8'>Where to grow your business as a photograpgher: site or social media?</p>
+           <button className='px-7 py-2 bg-brandPrimary text-white rounded hover:bg-neutralDGrey transition-all duration-300 hover:-translate-y-4'>Register</button>
+         </div>
+        </div>
+        
+      </Carousel>
